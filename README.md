@@ -1,7 +1,7 @@
-Check for `dd`, `dump` and `ray` usage across your application
+# ✂️ Pest PHP Snippets
 
-```php
-test('the codebase does not have stray dd or dump usage')
-    ->expect(['dd', 'dump', 'ray'])
-    ->not->toBeUsed();
-```
+This repo houses snippets from the community to be used with [Pest](https://pestphp.com/). 
+Feel free to copy and use these in your application and adapt them to your needs. If you have
+a snippet that you use over and over again and would like to share it, feel free to submit a PR!
+
+## 🏛️ [Arch Testing](arch-testing.md)

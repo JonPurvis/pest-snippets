@@ -1,2 +1,7 @@
-# common-pest-arch-tests
-A list of common architecture tests for Pest that can be copied into your own application
+Check for `dd`, `dump` and `ray` usage across your application
+
+```php
+test('the codebase does not have stray dd or dump usage')
+    ->expect(['dd', 'dump', 'ray'])
+    ->not->toBeUsed();
+```

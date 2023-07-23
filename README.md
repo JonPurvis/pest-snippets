@@ -5,4 +5,4 @@ Feel free to copy and use these in your application and adapt them to your needs
 a snippet that you use over and over again and would like to share it, feel free to submit a PR!
 
 ## 🏛️ [Arch Testing](arch-testing.md)
-- Check for left over dd, dump and ray usage
+- Check for leftover debugging code

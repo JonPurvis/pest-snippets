@@ -1,6 +1,6 @@
 ```php
 test('the codebase does not contain any debugging code')
-    ->expect(['dd', 'dump', 'ray', 'var_dump'])
+    ->expect(['dd', 'dump', 'ray', 'var_dump', 'print_r'])
     ->not->toBeUsed();
 ```
 

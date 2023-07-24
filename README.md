@@ -6,3 +6,4 @@ a snippet that you use over and over again and would like to share it, feel free
 
 ## 🏛️ [Arch Testing](arch-testing.md)
 - Check for leftover debugging code
+- Check for env usage in application files

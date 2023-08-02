@@ -15,3 +15,4 @@ a snippet that you use over and over again and would like to share it, feel free
 - Check for correct API controllers
 - Check for correct commands
 - Check for correct tests
+- Check for invokable actions

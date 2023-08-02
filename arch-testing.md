@@ -73,3 +73,9 @@ test('Tests are using strict types and have the correct suffix')
     ->and('Tests\Feature')->toHaveSuffix('Test')
     ->and('Tests\Unit')->toHaveSuffix('Test');
 ```
+
+```php
+test('Actions are invokable')
+    ->expect('App\Actions')
+    ->toBeInvokable();
+```
